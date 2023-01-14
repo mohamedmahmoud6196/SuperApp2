@@ -1,0 +1,6 @@
+framework module Pods_SuperApp2_SuperApp2UITests {
+  umbrella header "Pods-SuperApp2-SuperApp2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
