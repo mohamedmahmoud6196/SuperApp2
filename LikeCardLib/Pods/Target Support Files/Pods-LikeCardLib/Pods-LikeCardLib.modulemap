@@ -1,0 +1,6 @@
+framework module Pods_LikeCardLib {
+  umbrella header "Pods-LikeCardLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

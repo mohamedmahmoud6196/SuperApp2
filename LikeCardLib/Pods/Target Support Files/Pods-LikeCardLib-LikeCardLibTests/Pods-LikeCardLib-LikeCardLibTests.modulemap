@@ -1,0 +1,6 @@
+framework module Pods_LikeCardLib_LikeCardLibTests {
+  umbrella header "Pods-LikeCardLib-LikeCardLibTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

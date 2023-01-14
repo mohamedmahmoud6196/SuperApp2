@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3986372972A28F009B25C4 /* LikeCardLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39862E2972A28F009B25C4 /* LikeCardLib.framework */; };
+		3A39863C2972A28F009B25C4 /* LikeCardLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */; };
+		3A39863D2972A28F009B25C4 /* LikeCardLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3986312972A28F009B25C4 /* LikeCardLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A39864C2972A3EE009B25C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986482972A3ED009B25C4 /* Assets.xcassets */; };
+		3A39864D2972A3EE009B25C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986492972A3ED009B25C4 /* Main.storyboard */; };
+		3A72489D2972BB480033D2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72489B2972BB480033D2BB /* ViewController.swift */; };
+		3A72489E2972BB480033D2BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72489C2972BB480033D2BB /* SecondViewController.swift */; };
+		3AEEB3DA448F5365681B6699 /* Pods_LikeCardLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */; };
+		CFD442072B31FF0B91E13693 /* Pods_LikeCardLib_LikeCardLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3986382972A28F009B25C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3986252972A28E009B25C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A39862D2972A28F009B25C4;
+			remoteInfo = LikeCardLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib.release.xcconfig"; path = "Target Support Files/Pods-LikeCardLib/Pods-LikeCardLib.release.xcconfig"; sourceTree = "<group>"; };
+		3A39862E2972A28F009B25C4 /* LikeCardLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LikeCardLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3986312972A28F009B25C4 /* LikeCardLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeCardLib.h; sourceTree = "<group>"; };
+		3A3986362972A28F009B25C4 /* LikeCardLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardLibTests.swift; sourceTree = "<group>"; };
+		3A3986482972A3ED009B25C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A39864A2972A3ED009B25C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A72489B2972BB480033D2BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A72489C2972BB480033D2BB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib-LikeCardLibTests.release.xcconfig"; path = "Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardLib/Pods-LikeCardLib.debug.xcconfig"; sourceTree = "<group>"; };
+		F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardLib_LikeCardLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A39862B2972A28F009B25C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEEB3DA448F5365681B6699 /* Pods_LikeCardLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3986332972A28F009B25C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3986372972A28F009B25C4 /* LikeCardLib.framework in Frameworks */,
+				CFD442072B31FF0B91E13693 /* Pods_LikeCardLib_LikeCardLibTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3986242972A28E009B25C4 = {
+			isa = PBXGroup;
+			children = (
+				3A3986302972A28F009B25C4 /* LikeCardLib */,
+				3A39863A2972A28F009B25C4 /* LikeCardLibTests */,
+				3A39862F2972A28F009B25C4 /* Products */,
+				91CC09601A425C60CA9D6390 /* Pods */,
+				92AE98F9EB6647704C18B55D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A39862F2972A28F009B25C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A39862E2972A28F009B25C4 /* LikeCardLib.framework */,
+				3A3986362972A28F009B25C4 /* LikeCardLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3986302972A28F009B25C4 /* LikeCardLib */ = {
+			isa = PBXGroup;
+			children = (
+				3A3986462972A3ED009B25C4 /* ReUsedModule */,
+				3A3986312972A28F009B25C4 /* LikeCardLib.h */,
+			);
+			path = LikeCardLib;
+			sourceTree = "<group>";
+		};
+		3A39863A2972A28F009B25C4 /* LikeCardLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */,
+			);
+			path = LikeCardLibTests;
+			sourceTree = "<group>";
+		};
+		3A3986462972A3ED009B25C4 /* ReUsedModule */ = {
+			isa = PBXGroup;
+			children = (
+				3A72489A2972BB480033D2BB /* VC */,
+				3A3986482972A3ED009B25C4 /* Assets.xcassets */,
+				3A3986492972A3ED009B25C4 /* Main.storyboard */,
+			);
+			path = ReUsedModule;
+			sourceTree = "<group>";
+		};
+		3A72489A2972BB480033D2BB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3A72489B2972BB480033D2BB /* ViewController.swift */,
+				3A72489C2972BB480033D2BB /* SecondViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		91CC09601A425C60CA9D6390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */,
+				38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */,
+				8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */,
+				43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92AE98F9EB6647704C18B55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */,
+				F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A3986292972A28F009B25C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39863D2972A28F009B25C4 /* LikeCardLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A39862D2972A28F009B25C4 /* LikeCardLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3986402972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLib" */;
+			buildPhases = (
+				87DAB264B02EE1047931DBC8 /* [CP] Check Pods Manifest.lock */,
+				3A3986292972A28F009B25C4 /* Headers */,
+				3A39862A2972A28F009B25C4 /* Sources */,
+				3A39862B2972A28F009B25C4 /* Frameworks */,
+				3A39862C2972A28F009B25C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeCardLib;
+			productName = LikeCardLib;
+			productReference = 3A39862E2972A28F009B25C4 /* LikeCardLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A3986352972A28F009B25C4 /* LikeCardLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3986432972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLibTests" */;
+			buildPhases = (
+				9CF64D8AAFB3E8BC158037E1 /* [CP] Check Pods Manifest.lock */,
+				3A3986322972A28F009B25C4 /* Sources */,
+				3A3986332972A28F009B25C4 /* Frameworks */,
+				3A3986342972A28F009B25C4 /* Resources */,
+				CC22BADE13304623DA27127B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3986392972A28F009B25C4 /* PBXTargetDependency */,
+			);
+			name = LikeCardLibTests;
+			productName = LikeCardLibTests;
+			productReference = 3A3986362972A28F009B25C4 /* LikeCardLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3986252972A28E009B25C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3A39862D2972A28F009B25C4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					3A3986352972A28F009B25C4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 3A3986282972A28E009B25C4 /* Build configuration list for PBXProject "LikeCardLib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3986242972A28E009B25C4;
+			productRefGroup = 3A39862F2972A28F009B25C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A39862D2972A28F009B25C4 /* LikeCardLib */,
+				3A3986352972A28F009B25C4 /* LikeCardLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A39862C2972A28F009B25C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39864C2972A3EE009B25C4 /* Assets.xcassets in Resources */,
+				3A39864D2972A3EE009B25C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3986342972A28F009B25C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87DAB264B02EE1047931DBC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF64D8AAFB3E8BC158037E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardLib-LikeCardLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC22BADE13304623DA27127B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A39862A2972A28F009B25C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A72489E2972BB480033D2BB /* SecondViewController.swift in Sources */,
+				3A72489D2972BB480033D2BB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3986322972A28F009B25C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39863C2972A28F009B25C4 /* LikeCardLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3986392972A28F009B25C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A39862D2972A28F009B25C4 /* LikeCardLib */;
+			targetProxy = 3A3986382972A28F009B25C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3986492972A3ED009B25C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39864A2972A3ED009B25C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A39863E2972A28F009B25C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A39863F2972A28F009B25C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A3986412972A28F009B25C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3986422972A28F009B25C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A3986442972A28F009B25C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3986452972A28F009B25C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3986282972A28E009B25C4 /* Build configuration list for PBXProject "LikeCardLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39863E2972A28F009B25C4 /* Debug */,
+				3A39863F2972A28F009B25C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3986402972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3986412972A28F009B25C4 /* Debug */,
+				3A3986422972A28F009B25C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3986432972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3986442972A28F009B25C4 /* Debug */,
+				3A3986452972A28F009B25C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3986252972A28E009B25C4 /* Project object */;
+}
